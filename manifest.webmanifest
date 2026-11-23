@@ -2,7 +2,7 @@
   "id": "/minha-garagem/",
   "name": "Minha Garagem",
   "short_name": "Minha Garagem",
-  "description": "Sua coleção de miniaturas de carros sempre à mão.",
+  "description": "Portfólio e gestão da coleção de miniaturas de carros.",
   "start_url": "/minha-garagem/",
   "scope": "/minha-garagem/",
   "display": "standalone",

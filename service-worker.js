@@ -1,6 +1,6 @@
-// Minha Garagem 5.0 — cache apenas dos recursos visuais locais.
+// Minha Garagem 5.1 — cache apenas dos recursos visuais locais.
 // Não armazena respostas do Supabase, dados privados, fotos nem autenticação.
-const CACHE_NAME = 'minha-garagem-static-v5';
+const CACHE_NAME = 'minha-garagem-static-v5-1';
 const STATIC_FILES = ['./manifest.webmanifest', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(STATIC_FILES)));
